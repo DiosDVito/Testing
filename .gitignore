@@ -4,7 +4,9 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-**/test-results/
+**/test-results/*
+!**/test-results/**/*.webm
+!**/test-results/**/*.mp4
 **/playwright-report/
 **/.auth/
 
